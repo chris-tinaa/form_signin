@@ -1,0 +1,101 @@
+/* h1 {
+    color: pink;
+} */
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 10px 10px;
+    background-color: white;
+}
+
+table {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    /* border-collapse: collapse; 
+    border-radius: 1em; 
+    overflow: hidden; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 10px 10px;
+}
+
+tr {
+    line-height: 50px;
+}
+
+button {
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(255, 127, 217);
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    border-radius: 0em;
+    border-color: black;
+    font-weight: 400;
+    box-shadow: 5px 5px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+/* .toast {
+    border-style: solid;
+    border-width: 2px;
+    border-style: solid;
+    border-width: 2px;
+    color: black;
+    border-radius: 0em;
+    border-color: black;
+    font-weight: 400;
+    box-shadow: 5px 5px;
+    margin-top: 24px;
+    width: 100%;
+} */
+
+.toast {
+    color: white;
+    border-radius: 0em;
+    background-color: green;
+    font-weight: 400;
+    width: 100%;  
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+button:hover {
+    background-color: rgb(255, 230, 0);
+    color: black;
+}
+
+input {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: black;
+    color: black;
+    border-radius: 0em;
+    margin-bottom: 24px;
+    background-color: rgb(229, 253, 245);
+}
+
+label {
+    font-weight: bolder;
+}
+
